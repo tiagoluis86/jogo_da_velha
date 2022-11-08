@@ -372,3 +372,61 @@ function myfunc_11() {
         flag = 1;
     }
 }
+
+// coloca o jogo contra o computador
+function versusPC() {
+    if (document.getElementById("b1").value == "X"){  
+        alert("TESTE")      
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;
+    }
+    else if (document.getElementById("b2").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b3").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b7").value = "0";
+        document.getElementById("b7").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b4").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b5").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b9").value = "0";
+        document.getElementById("b9").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b6").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b4").value = "0";
+        document.getElementById("b4").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b7").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;        
+    }
+    else if (document.getElementById("b8").value == "X") {
+        alert("TESTE") 
+        document.getElementById("b1").value = "0";
+        document.getElementById("b1").disabled = true;
+        flag = 1;        
+    }
+    else {
+        alert("TESTE") 
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;      
+    }
+}
