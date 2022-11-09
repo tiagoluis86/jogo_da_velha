@@ -8,4 +8,5 @@ features
 ---------------------
 - permite jogar humano contra humano, um de cada vez, até a morte, ops, até dar velha ou um dos dois vencerem.  
 - tem a opção de reiniciar o jogo  
+- adicionado jogo contra o computador 
 - só isso mesmo
